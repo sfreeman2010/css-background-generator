@@ -1,3 +1,5 @@
+var _ = require('lodash');
+
 const css = document.querySelector('h3');
 const [color1, color2] = document.querySelectorAll('.color')
 const body = document.querySelector('#gradient');
